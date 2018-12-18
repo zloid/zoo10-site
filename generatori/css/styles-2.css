@@ -1,0 +1,14 @@
+
+/*                               any
+-----------------------------------------------------------------------------*/
+.any {
+   width: 340px;
+   height: 100px;
+   color: #eeeeee;
+   background-color: #333333;
+   font: 60px Myriad Pro, Regular;
+   margin: 10px 0 0 20px;
+   padding: 15px 5px 5px 15px;
+   text-align: left;
+   float: left;
+}
