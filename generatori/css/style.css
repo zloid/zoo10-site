@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+	height: 100%;
+}
+
+
+
+/*                               Body
+-----------------------------------------------------------------------------*/
+
+body {
+   font: 12px/18px Arial, sans-serif;
+   width: 100%;
+   height: 100%;
+   background: url(../patterns/bg-1.jpg ) repeat  #fff;
+}
+
+
+/*                               Wrapper
+-----------------------------------------------------------------------------*/
+
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/*                               Header
+-----------------------------------------------------------------------------*/
+.header {
+	
+	/*
+	background: #FFE680;
+	
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-image: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.65098), rgba(255, 255, 255, 0.34902));
+  background-color: rgb(238, 230, 230);
+  box-shadow: rgba(0, 0, 0, 0.498039) -3px -3px 8px inset, rgba(255, 255, 255, 0.901961) 3px 3px 8px inset, rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
+  border-radius: 30px;
+  background: url(/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  
+  
+   background: rgba(97, 98, 29, 1);
+   
+   */
+   margin: 0 auto;
+   
+   height: 350px;
+   width: 100%; 
+     
+   background: url(../patterns/ksdjbh-2.jpg)  repeat-x  rgba(97, 98, 29, 1);
+}
+
+
+/*                              Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 85px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+/*                                content
+-----------------------------------------------------------------------------*/
+
+.content {
+  border-radius: 10px;
+  background: rgba(97, 98, 29, 0.8);
+  background-image: url(/pattern/voda2.png);
+  margin: 10px 97px 10px 103px;
+  padding: 38px;
+  overflow: hidden;
+  min-height: 689px;
+ }
+
+/*                               Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 1000px;
+	margin: -50px auto;
+	height: 85px;
+	background: rgba(97, 98, 29, 0.8);
+	position: relative;
+	overflow: hidden;
+}
+
+
+/*                               menu-top all
+-----------------------------------------------------------------------------*/
+.menu {
+  font-family: inherit;
+  font-size: 13px;
+  float: left;
+  margin: 10px 0 5px 53px;
+  padding: 8px 8px 8px 10px;
+  width: 1000px;
+  height: 38px;
+  text-decoration: none;
+  border-top-left-radius: 10px;      border-top-right-radius: 10px;      border-bottom-right-radius: 10px;      border-bottom-left-radius: 10px;      
+  background-image: rgba(97, 98, 29, 1);          
+  background-color: rgba(97, 98, 29, 0.4);
+  box-shadow: rgba(0, 158, 195, 0.498039) -3px -3px 8px inset, rgba(255, 255, 255, 0.89) 3px 3px 8px inset, rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;      
+  border-radius: 30px;
+}
+
+ul.cssmenu {
+padding: 0;
+margin: 0;
+list-style: none;
+
+} 
+
+ul.cssmenu li {
+  float: left;
+  color: rgba(97, 98, 29, 1);
+  font: 14px Arial;
+  font-weight: bold;
+  background: url(/pattern/menu5.png);
+  width: 120px;
+  height:38;
+  float: left;
+  padding: 11px 5px;
+  margin: 0 0 0 15px;
+  text-align: center;
+} 
+
+ul.cssmenu li a, ul.cssmenu li   {
+text-decoration: none;
+}
+
+ul.cssmenu a:hover {
+ color: rgba(97, 98, 29, 1);
+ text-decoration: underline;
+}
+
+.menu a:visited {
+color: rgba(97, 98, 29, 1);
+}
+
+.menu .active a {
+  color: rgba();
+  text-decoration: underline;  
+}
+
+/*                             end menu-top all
+-----------------------------------------------------------------------------*/
+	 
+ 
