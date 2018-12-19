@@ -1,8 +1,92 @@
 body {
-    background-color: #ececec;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5bfbc;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
-h1 {
-    font-size: 30px;
+.container,
+.container-fluid {
+    /* background: #8d868c; */
+    background: var(--light);
+}
+
+.navbar {
+    background: #F97300;
+}
+
+.navbar {
+    background: #F97300;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important
+}
+
+.bg-primary {
+    background-color: #343a40 !important
+}
+
+.header {
+    /* background-image: url('../images/house-music-wallpaper.jpg'); */
+    background-image: url('http://zoo10.zloid.ru/patterns/hdr_zoo10_4.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+    opacity: .8;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h3 {
+    color: #F97300;
+}
+
+.description p {
+    color: #444;
+    font-size: 20px;
+    font-weight: bolder;
+    /* width: 50%; */
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #F97300;
+    background: #F97300;
+    color: #fff;
 }
