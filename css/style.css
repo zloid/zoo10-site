@@ -1,99 +1,27 @@
- 
+/* .top-bg-image { */
+
+/* #cover { */
 
 body {
-    background-color: #c5bfbc;
-    /* font-family: Arial, Helvetica, sans-serif; */
-}
-
- 
-.navbar {
-    background: #F97300;
-}
-
-.nav-link,
-.navbar-brand {
-    color: #f4f4f4;
-    cursor: pointer;
-}
-
-.nav-link {
-    margin-right: 1em !important;
-}
-
-.nav-link:hover {
-    background: #f4f4f4;
-    color: #f97300;
-}
-
-.navbar-collapse {
-    justify-content: flex-end;
-}
-
-.navbar-toggler {
-    background: #fff !important;
-}
-
-.bg-dark {
-    background-color: #343a40 !important
-}
-
-.bg-primary {
-    background-color: #343a40 !important
-}
-
-.header {
-    /* background-image: url('../images/house-music-wallpaper.jpg'); */
-    background-image: url('../images/main-cover-zoo10.jpg');
+    background-image: url('../images/house-music-wallpaper.jpg');
+    /* background-image: url('../images/main-cover-zoo10.jpg'); */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 
-.overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(244, 244, 244, 0.79);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    opacity: .6;
+.col-sm,
+.col-12 {
+    border: 1px solid #ccc;
 }
 
-.description {
-    float: right;
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    margin: auto;
-    padding: 2em;
-    /* background-color: #dbdbdb;
-     */
-    background: rgba(248, 248, 248, 0.5);
-    /* opacity: .6; */
-    /* background-image: url('../images/house-music-wallpaper.jpg'); */
+.col-sm,
+.col-6,
+.col-9,
+.col-3 {
+    border: 1px solid red;
 }
 
-.description h3 {
-    color: #F97300;
-}
-
-.description p {
-    opacity: initial; 
-    color: #444;
+body {
     font-size: 20px;
-    font-weight: bolder;
-    /* width: 50%; */
-    line-height: 1.5;   
 }
-
-/*
-.description button {
-    border: 1px solid #F97300;
-    background: #F97300;
-    color: #fff;
-}
-*/
- 

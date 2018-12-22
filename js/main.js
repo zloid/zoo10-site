@@ -1,14 +1,14 @@
 ; (function () {
     function resize() {
         $(document).ready(function () {
-            $('.header').height($(window).height());
+            $('.top-bg-image').height($(window).height());
         })
          
     }
 
-    resize();
+    // resize();
     window.addEventListener('resize', () => {
-        resize();
+        // resize();
     })
 
     
