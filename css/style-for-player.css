@@ -1,28 +1,38 @@
 body {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 20px; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     background-color: #f4ecd2;
-    /* stop select any on page */
+    /* stop select any on page 
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    */
 }
-
+   
+ 
 #wrapper {
     width: 100%;
 }
 
 #AudioPlayerByZloid {
-    max-width: 500px;
-    height: 70%;
+    max-width: 600px;
+    /* height: 70%; */
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.94);
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.94); */
     margin: 8px 5px;
     border-radius: 6px;
     /* background-image: url(../images/player/bg2.jpg); */
     background: url(../images/zoo10_pattern.png) repeat;
     /* background-size: contain; */
+     /* stop select any on page */
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     /* border: 1px solid #4d43dd; */
+     /* background: #9385ac; */
+     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #ulForNewUiAudioElement {
@@ -37,7 +47,7 @@ body {
     font-size: 20px;
     cursor: pointer;
     color: #000;
-    background-color: #f1f3f4;
+    background-color: #f1f3f4ef;
     border: 1px solid #bebebe;
     border-radius: 5px;
     max-width: 100%;
@@ -88,6 +98,7 @@ body {
     
 #AudioPlayerByZloid button {
     width: 25%;
+    
 }
     /*#stop,
     #next,
@@ -124,7 +135,7 @@ body {
     border: 2px solid #89898d;
     background: url(../images/player/muteOnOff-spritesheet-2.png) no-repeat;
     background-size: cover;
-    background-position: -26px 0px;
+    /* background-position: -26px 0px; */
     opacity: .5;
     border-radius: 5px;
 }
@@ -136,6 +147,7 @@ body {
     border: 2px solid #2e40df;
     background: url(../images/player/muteOnOff-spritesheet-2.png) no-repeat;
     background-size: cover;
+    background-position: -26px 0px;
     border-radius: 5px;
 }
 
@@ -176,6 +188,7 @@ body {
     border-radius: 5px;
     margin: 2px 0;
     color: #424242;
+    /* border: 1px solid rgb(230, 162, 17); */
 }
 
 #ContainerForAdvancedAudioControls {
@@ -183,28 +196,30 @@ body {
 }
 
 #timer {
-    width: 24%;
-    font-size: 18px;
-    float: left;
+    /* width: 24%; */
+    /* font-size: 18px; */
+    /* float: left; */
 }
 
 #progressBarContainer {
-    height: 22px;
+    /* height: 22px; */
     padding: 5px;
 }
 
 #songSlider {
-    position: absolute;
-    width: 100%;
-    height: 22px;
-    background-color: #ccc;
+    /* position: absolute; */
+    /* width: 100%; */
+    /* height: 22px; */
+    /* background-color: #ccc; */
     border-radius: 3px;
-    margin: 0 0 0 110px;
+    /* margin: 0 0 0 110px; */
+    /* border: 1px solid #000; */
 }
 
 #trackProgress {
     width: 0px;
-    height: 22px;
+    /* height: 22px; */
+    height: 100%;
     background-color: #78c55a;
     border-radius: 3px;
 }
@@ -212,7 +227,7 @@ body {
 #trackNameContainer {
     position: absolute;
     font-size: 20px;
-    height: 15px;
+    /* height: 15px; */
     line-height: 20px;
     padding: 0 5px 0 10px;
 }
@@ -237,38 +252,53 @@ body {
         font-size: 15px;
     }*/
     #progressBarContainer {
-        height: 42px;
+        /* height: 42px; */
         padding: 5px;
     }
     #timer {
-        width: 80px;
-        font-size: 18px;
-        line-height: 22px;
+        /* width: 80px; */
+        /* font-size: 18px; */
+        /* line-height: 22px; */
     }
     #songSlider {
-        width: 66%;
-        height: 42px;
-        background-color: #ccc;
+        /* width: 66%; */
+        /* height: 42px; */
+        /* background-color: #ccc; */
         border-radius: 3px;
-        margin: 0 0 0 70px;
-        position: absolute;
+        /* margin: 0 0 0 70px; */
+        /* position: absolute; */
     }
     #trackProgress {
-        height: 42px;
+        /* height: 42px; */
+        width: 0px;
+        height: 100%;
         background-color: #78c55a;
         border-radius: 3px;
     }
     #trackNameContainer {
         position: absolute;
-        width: 70%;
-        height: 30px;
+        /* width: 70%; */
+        /* height: 30px; */
         padding: 0 5px 0 10px;
         line-height: 20px;
         font-size: 20px;
     }
 }
 
-/* for zoo10 site */
+/* for zoo10 site ==================================================*/
 #allButtonsHere {
     padding: 10px;
+}
+
+#timer {
+    /* border: 1px solid #c21348; */
+    font-size: 18px;
+    padding: 0px;
+}
+ 
+#songSlider {
+    /* border: 2px solid blue; */
+    padding-left: 0px;
+    background-color: #ccccccd1;
+    
 }

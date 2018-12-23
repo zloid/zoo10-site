@@ -78,18 +78,21 @@ function drawAllNewButtons (containerForNewUIAudioElement) {
     newBtnNext.innerHTML = 'NEXT';
     //render
     divForButtons.appendChild(newBtnPlay);
-    divForButtons.appendChild(newBtnBack);
-    divForButtons.appendChild(newBtnStop);
     divForButtons.appendChild(newBtnNext);
+    divForButtons.appendChild(newBtnStop);
+    divForButtons.appendChild(newBtnBack);
 }
 
 function drawProgressBarScreen (containerForNewUIAudioElement) {
     // common div
     let divForProgressBar = document.createElement('div');
     divForProgressBar.id = 'progressBarContainer';
+    // divForProgressBar.className = 'col-12';
+    divForProgressBar.className = 'row';
     //songSlider
     let songSliderObj = document.createElement('div');
     songSliderObj.id = 'songSlider';
+    songSliderObj.className = 'col-9';
     //trackProgress
     let trackProgressObj = document.createElement('div');
     trackProgressObj.id = 'trackProgress';
@@ -99,11 +102,12 @@ function drawProgressBarScreen (containerForNewUIAudioElement) {
     //timer > 0:00 🕑 1:08 
     let timerObj = document.createElement('div');
     timerObj.id = 'timer';
+    timerObj.className = 'col-3';
     timerObj.innerHTML = '0:00 &#128337; 0:00';
     //render
     containerForNewUIAudioElement.appendChild(divForProgressBar);
-    divForProgressBar.appendChild(songSliderObj);
     divForProgressBar.appendChild(timerObj);
+    divForProgressBar.appendChild(songSliderObj);
     songSliderObj.appendChild(trackProgressObj);
     trackProgressObj.appendChild(trackNameContainerObj);
     resizeAudioProgressCover();
@@ -263,8 +267,16 @@ function namingProgressBarEqualCurrentAudioSrc (putAudioLowerCaseNameTo, allHTML
 }
 
 function setTimePositionForAudio(event) {    
-    let songSliderWidthNum = takeAudioProgressBarObj.offsetWidth;   
-    let clickLocationNum =  event.clientX  - takeAudioProgressBarObj.offsetLeft;
+    let songSliderWidthNum = takeAudioProgressBarObj.offsetWidth; 
+    
+    // let songTimerWidthNum = document.querySelector('#timer').offsetWidth;
+    let rect = takeAudioProgressBarObj.getBoundingClientRect();
+     console.log('rect.left:',  rect.left);
+    // // console.log('songSliderWidthNum:', songSliderWidthNum);  
+    // let clickLocationNum =  event.clientX  - takeAudioProgressBarObj.offsetLeft;
+    // let clickLocationNum =  takeAudioProgressBarObj.offsetLeft;
+    let clickLocationNum =  event.clientX - rect.left;
+    console.log('clickLocationNum:', clickLocationNum);
     let percentage = (clickLocationNum / songSliderWidthNum);
     allHTMLAudioElementsArr[currentAudioNum].currentTime = allHTMLAudioElementsArr[currentAudioNum].duration * percentage;
 }

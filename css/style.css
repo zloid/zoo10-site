@@ -11,17 +11,37 @@ body {
 }
 
 .col-sm,
-.col-12 {
-    border: 1px solid #ccc;
+.col-12,
+.col-6 {
+    /* border: 1px solid #ccc; */
 }
 
 .col-sm,
-.col-6,
 .col-9,
 .col-3 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
     font-size: 20px;
 }
+
+/*
+.songSlider,
+#progressBarContainer {
+    border: 2px solid blue;
+}
+
+#trackProgress {
+    border: 1px solid green;
+}
+
+#trackNameContainer {
+    border: 1px solid rgb(218, 115, 19);
+    width: 100px;
+}
+
+#songSlider {
+    background-color: #ccc;
+}
+*/
