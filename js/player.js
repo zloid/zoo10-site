@@ -77,10 +77,10 @@ function drawAllNewButtons (containerForNewUIAudioElement) {
     newBtnNext.className = 'btn btn-warning';
     newBtnNext.innerHTML = 'NEXT';
     //render
-    divForButtons.appendChild(newBtnPlay);
-    divForButtons.appendChild(newBtnNext);
     divForButtons.appendChild(newBtnStop);
     divForButtons.appendChild(newBtnBack);
+    divForButtons.appendChild(newBtnPlay);
+    divForButtons.appendChild(newBtnNext);
 }
 
 function drawProgressBarScreen (containerForNewUIAudioElement) {

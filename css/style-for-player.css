@@ -8,31 +8,14 @@ body {
     -ms-user-select: none;
     */
 }
-   
- 
+
 #wrapper {
     width: 100%;
 }
 
 #AudioPlayerByZloid {
-    max-width: 600px;
+    /* max-width: 600px; */
     /* height: 70%; */
-    padding: 10px;
-    border-radius: 5px;
-    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.94); */
-    margin: 8px 5px;
-    border-radius: 6px;
-    /* background-image: url(../images/player/bg2.jpg); */
-    background: url(../images/zoo10_pattern.png) repeat;
-    /* background-size: contain; */
-     /* stop select any on page */
-     -webkit-user-select: none;
-     -moz-user-select: none;
-     -ms-user-select: none;
-     /* border: 1px solid #4d43dd; */
-     /* background: #9385ac; */
-     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #ulForNewUiAudioElement {
@@ -41,12 +24,11 @@ body {
 }
 
 .newLiClass {
-    overflow: hidden;
     display: block;
     padding: 5px 20px;
     font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
-    color: #000;
     background-color: #f1f3f4ef;
     border: 1px solid #bebebe;
     border-radius: 5px;
@@ -95,11 +77,9 @@ body {
 }
 
 @media only screen and (min-width: 601px) {
-    
-#AudioPlayerByZloid button {
-    width: 25%;
-    
-}
+    #AudioPlayerByZloid button {
+        width: 25%;
+    }
     /*#stop,
     #next,
     #play,
@@ -115,6 +95,7 @@ body {
         font-size: 15px;
     }*/
 }
+
 /*
 #stop,
 #next,
@@ -172,6 +153,7 @@ body {
     background-position: -26px 0px;
     border-radius: 5px;
 }
+
 /*
 #stop {
     background-color: rgb(228, 86, 51);
@@ -181,6 +163,7 @@ body {
     background-color: rgb(56, 156, 53);
 }
 */
+
 #allButtonsHere,
 #progressBarContainer,
 #ContainerForAdvancedAudioControls {
@@ -195,11 +178,15 @@ body {
     padding: 5px;
 }
 
-#timer {
-    /* width: 24%; */
-    /* font-size: 18px; */
-    /* float: left; */
-}
+/* #timer { */
+
+/* width: 24%; */
+
+/* font-size: 18px; */
+
+/* float: left; */
+
+/* } */
 
 #progressBarContainer {
     /* height: 22px; */
@@ -235,10 +222,15 @@ body {
 /* mobiles */
 
 @media only screen and (max-width: 600px) {
-    
-#AudioPlayerByZloid button {
-    width: 50%;
-}
+    #timer {
+        padding-left: 10px;
+    }
+    #next {
+        border-bottom: 1px solid #fbd37dcc;
+    }
+    #AudioPlayerByZloid button {
+        width: 50%;
+    }
     /*#stop,
     #next,
     #play,
@@ -255,11 +247,11 @@ body {
         /* height: 42px; */
         padding: 5px;
     }
-    #timer {
-        /* width: 80px; */
-        /* font-size: 18px; */
-        /* line-height: 22px; */
-    }
+    /* #timer { */
+    /* width: 80px; */
+    /* font-size: 18px; */
+    /* line-height: 22px; */
+    /* } */
     #songSlider {
         /* width: 66%; */
         /* height: 42px; */
@@ -286,19 +278,82 @@ body {
 }
 
 /* for zoo10 site ==================================================*/
+
 #allButtonsHere {
     padding: 10px;
 }
 
-#timer {
-    /* border: 1px solid #c21348; */
-    font-size: 18px;
-    padding: 0px;
-}
- 
 #songSlider {
     /* border: 2px solid blue; */
     padding-left: 0px;
     background-color: #ccccccd1;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#allButtonsHere,
+#progressBarContainer,
+#ContainerForAdvancedAudioControls {
+    /* background: #e6e6e6b6; */
+    background: #e6e6e6;
+    border-radius: 5px;
+    margin: 0 0;
+    color: #424242;
+    /* border: 1px solid rgb(230, 162, 17); */
+}
+
+#ContainerForAdvancedAudioControls {
+    margin-bottom: 20px;
+}
+
+#timer {
+    background-color: #aaaaaa9d;
+    /* text-align: right; */
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    padding: 0 0 0 0;
+    /* border-right: 2px solid #aaa; */
+    /* left: 0% */
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#AudioPlayerByZloid {
+    max-width: 500px;
+    /* background: url(../images/zoo10_pattern.png) repeat; */
+}
+
+#AudioPlayerByZloidCover {
+    /* background: #cccccc99; */
+    /* background: #2b3991e0; */
+    background: #22232de0;
+    max-width: 500px;
+
+    border-radius: 5px;
+    /* padding: 5px 5px 5px 5px; */
+    padding: 5px;
+    border-radius: 5px;
+    margin: 8px 5px;
+    border-radius: 6px;
+    /* background-image: url(../images/player/bg2.jpg); */
+    /* background: url(../images/zoo10_pattern.png) repeat; */
+    /* background-size: contain; */
+    /* stop select any on page */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     
+    /* background: #9385ac; */
+    font-size: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Arial;
+}
+
+.newLiClass {
+    background: #e6e6e6;
+}
+
+.newLiClassPlaying, .newLiClass {
+    font-size: 19px;
 }
