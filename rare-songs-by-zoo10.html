@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"  
+         crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-for-player.css">
+    <link rel="stylesheet" type="text/css" href="css/only-ie.css" />
+    <title>Rare songs by Zoo10</title>
+</head>
+
+<body>
+    <!-- <div id="cover"> -->
+    <div class="header container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
+            <a href="index.html" class="navbar-brand">Zoo10</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Bio</a></li>
+                <li class="nav-item "><a class="nav-link" href="rare-songs-by-zoo10.html">Rare songs</a></li>
+                <li class="nav-item "><a class="nav-link" href="test.html">TESTTTT!</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Play Lists</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Rock my ass!</a>
+                        <a class="dropdown-item" href="#">Sad me</a>
+                        <a class="dropdown-item" href="#">Play List 3</a>
+                    </div><!-- dropdown-menu -->
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Discography</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Album 1</a>
+                        <a class="dropdown-item" href="#">Album 2</a>
+                        <a class="dropdown-item" href="#">Album 3</a>
+                    </div><!-- dropdown-menu -->
+                </li>
+            </ul><!-- navbar-nav mr-auto -->
+    </div><!-- collapse navbar-collapse -->
+    </nav><!-- navbar -->
+    </div><!-- .container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="AudioPlayerByZloidCover">
+                    <div id="AudioPlayerByZloid"></div>
+                </div>
+                <audio controls>
+                    <source src="songs/neizdannoe-by-zoo10/03-wonders-of-the-diamond-front.mp3" type="audio/mpeg">
+                </audio>
+                <audio controls>
+                    <source src="songs/neizdannoe-by-zoo10/04-ya-lyublyu-kogda-solnce-svetit-demo.mp3" type="audio/mpeg">
+                </audio>
+                <audio controls>
+                    <source src="songs/neizdannoe-by-zoo10/10-you-like-me-i-like-you.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+    <!-- </div>cover -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- new -->
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+    <!-- <script src="http://player.zloid.ru/player.js"></script> -->
+    <script>
+        let middleUrl = document.location.pathname;
+        console.log(middleUrl);
+        // resultUrl = middleUrl.match(/^\//);
+        resultUrl = middleUrl.match(/[-\.\w]*$/ig).join('');;
+        console.log('resultUrl:', resultUrl);
+        // var elem = document.querySelector("[href='rare-songs-by-zoo10.html']");
+        // var elem = document.querySelector(`${"[href=\'resultUrl\']"}`);
+        var elem = document.querySelector(`[href=\'${resultUrl}\']`);
+        
+        elem.className += ' active';
+        // elem.display = 'none'
+        console.log('elem:', elem);
+        console.log('elem.className:', elem.className)
+    </script>
+</body>
+
+</html>
