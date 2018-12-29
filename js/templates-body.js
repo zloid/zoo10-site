@@ -21,8 +21,10 @@ let menuNavStr = `
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Discography</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="pesni-pro-dermo-lyubov-by-zoo10.html">Pesni pro dermo lyubov</a>
-                    <a class="dropdown-item" href="#">Album 2</a>
+                    <a class="dropdown-item" href="pesni-pro-dermo-lyubov-by-zoo10.html">Pesni pro dermo - lyubov</a>
+                    <a class="dropdown-item" href="children-of-the-sand-single-by-zoo10.html">Children of the sand (single)</a>
+                    <a class="dropdown-item" href="just-like-a-girl-single-by-zoo10.html">Just like a girl (single)</a>
+                    <a class="dropdown-item" href="#">Album 3</a>
                     <a class="dropdown-item" href="#">Album 3</a>
                 </div><!-- dropdown-menu -->
             </li>
@@ -82,8 +84,14 @@ let footerStr = `
 // document.body.innerHTML += menuNavStr;
 
 
+let currentUrlTwoStr = window.location.pathname;
+// let titleTextStr = currentUrlTwoStr.match(/[-\.\w]*$/ig).join('').replace(/-|\.html/gi, ' ').replace(/single/i, ' - single - ').replace(/index/i, '').toUpperCase();
+let titleTextStr = document.querySelector('title').innerHTML.toUpperCase();
+
+
+
 let bodyObjStr = document.querySelector('body').innerHTML;
-let beginBodyStr = bodyObjStr.replace(/^/, menuNavStr);
+let beginBodyStr = bodyObjStr.replace(/^/, menuNavStr + `<h1> ${titleTextStr} </h1>`);
 // beginBodyStr = bodyObjStr.replace(/$/, footerStr);
 document.body.innerHTML = beginBodyStr;
 
