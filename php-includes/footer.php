@@ -1,30 +1,25 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Children of the sand (single)</title>
-    <script src="js/templates.js"></script>
-</head>
+      
+</div><!--???? col-12 playerNow-->
 
-<body>
+</div><!-- row -->
 
-    <div id="AudioPlayerByZloidCover">
-        <div id="AudioPlayerByZloid"></div>
+<div class="container">
+    <div class="row elseNow">
+        <div class="col-sm elseNow">
+            
+        </div>
+        <div class="col-sm elseNow">
+            
+        </div>
+        <div class="col-sm elseNow">
+
+        </div>
     </div>
-    <audio controls>
-        <source src="songs/children-of-the-sand-single/01-Children-of-the-Sand.mp3" type="audio/mpeg">
-    </audio>
-    <audio controls>
-        <source src="songs/children-of-the-sand-single/02-Night-Autumn.mp3" type="audio/mpeg">
-    </audio>
-    <audio controls>
-        <source src="songs/children-of-the-sand-single/03-The-Best-Horse.mp3" type="audio/mpeg">
-    </audio>
+</div>
 
-    <script src="js/templates-body.js"></script>
+
+</div><!-- containers -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
