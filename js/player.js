@@ -1,6 +1,7 @@
 /*
-*   audio-player v0.1.23 
+*   audio-player v0.1.23-fork-0.0.10
 *   https://github.com/zloid/audio-player
+*   https://javascript-minifier.com/
 */
 ;(() => {    
 //first block of variables

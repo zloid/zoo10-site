@@ -1,6 +1,6 @@
 <?
     $title = 'Pesni pro dermo - lyubov';
-    include('/php-includes/header.php');
+    include('php-includes/header.php');
 ?>
     <div id="AudioPlayerByZloidCover">
         <div id="AudioPlayerByZloid"></div>
@@ -103,5 +103,5 @@
         <source src="songs/pesni-pro-dermo-lyubov-zoo10-album/32---ya-lyublyu-kogda-solnce-svetit.mp3" type="audio/mpeg">
     </audio>
 <?    
-    include('/php-includes/footer.php'); 
+    include('php-includes/footer.php'); 
 ?>

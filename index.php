@@ -1,6 +1,6 @@
 <?
     $title = 'zoo10!';
-    include('/php-includes/header.php');
+    include('php-includes/header.php');
 ?>
 
 <body style="background-image: url('images/main-cover-zoo10.jpg');"> 
@@ -21,7 +21,6 @@
         </div>
     </div>
 </div>
-
 
 </div><!-- containers -->
 

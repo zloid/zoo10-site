@@ -29,9 +29,13 @@
 
     function createHOneFromTitle() {
         let titleTextStr = document.querySelector('title').innerHTML.toUpperCase();
+        titleTextStr == 'ICRAZY' && (titleTextStr = 'iCrazy 🙌');
+        titleTextStr == 'U N I (SINGLE)' && (titleTextStr = 'uni (single)');
         let placeBeforePlayer = document.querySelector('#hOne');
-        placeBeforePlayer.innerHTML = '<h1><span class="bg-h-one">' + titleTextStr + '</span></h1>';
+        placeBeforePlayer.innerHTML = '<h1><span class="bg-h-one">' + titleTextStr + '</span></h1>';                
     }
     createHOneFromTitle();
+
+
 
 })()

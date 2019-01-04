@@ -1,6 +1,6 @@
 <?
     $title = 'Children of the sand (single)';
-    include('/php-includes/header.php');
+    include('php-includes/header.php');
 ?>
 
     <div id="AudioPlayerByZloidCover">
@@ -16,5 +16,5 @@
         <source src="songs/children-of-the-sand-single/03-The-Best-Horse.mp3" type="audio/mpeg">
     </audio>
 <?    
-    include('/php-includes/footer.php'); 
+    include('php-includes/footer.php'); 
 ?>

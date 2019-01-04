@@ -31,7 +31,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- new -->
     <script src="js/main.js"></script>
-    <script src="js/player.js"></script>
+    <script src="js/player.min.js"></script>
 
 </body>
 

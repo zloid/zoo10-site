@@ -1,18 +1,18 @@
 <?
     $title = 'Rare tracks';
-    include('/php-includes/header.php');
+    include('php-includes/header.php');
 ?>
     <div id="AudioPlayerByZloidCover">
         <div id="AudioPlayerByZloid"></div>
     </div>
     <audio controls>
-        <source src="/songs/neizdannoe-by-zoo10/03-wonders-of-the-diamond-front.mp3" type="audio/mpeg">
+        <source src="songs/neizdannoe-by-zoo10/03-wonders-of-the-diamond-front.mp3" type="audio/mpeg">
     </audio>
     <audio controls>
-        <source src="/songs/neizdannoe-by-zoo10/01-Ya-Lyublyu-Kogda-Solnce-Svetit-(remix).mp3" type="audio/mpeg">
+        <source src="songs/neizdannoe-by-zoo10/01-Ya-Lyublyu-Kogda-Solnce-Svetit-(remix).mp3" type="audio/mpeg">
     </audio>
     <audio controls>
-        <source src="/songs/neizdannoe-by-zoo10/10-you-like-me-i-like-you.mp3" type="audio/mpeg">
+        <source src="songs/neizdannoe-by-zoo10/10-you-like-me-i-like-you.mp3" type="audio/mpeg">
     </audio>
     <audio controls>
         <source src="songs/neizdannoe-by-zoo10/02-my-s-raboty.mp3" type="audio/mpeg">
@@ -33,10 +33,27 @@
         <source src="songs/neizdannoe-by-zoo10/09-beaver-dance.mp3" type="audio/mpeg">
     </audio>
     <audio controls>
-        <source src="/songs/neizdannoe-by-zoo10/04-ya-lyublyu-kogda-solnce-svetit-demo.mp3" type="audio/mpeg">
+        <source src="songs/neizdannoe-by-zoo10/04-ya-lyublyu-kogda-solnce-svetit-demo.mp3" type="audio/mpeg">
     </audio>
-    
-    
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/11-Unretrofied (The Dillinger Escape Plan cover, rehearsals).mp3" type="audio/mpeg">
+    </audio> 
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/12-ALAYLM (As Long As You Love Me).mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/13-i_Feel_Good.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/14-let`s do this.mp3" type="audio/mpeg">
+    </audio>   
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/15-Na celine (oformlenie) versiya two.mp3" type="audio/mpeg">
+    </audio> 
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/16-ya-i-moya-porehmaHERskaya.mp3" type="audio/mpeg">
+    </audio>
+
 <?    
-    include('/php-includes/footer.php'); 
+    include('php-includes/footer.php'); 
 ?>
