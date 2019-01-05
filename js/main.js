@@ -31,8 +31,12 @@
         let titleTextStr = document.querySelector('title').innerHTML.toUpperCase();
         titleTextStr == 'ICRAZY' && (titleTextStr = 'iCrazy 🙌');
         titleTextStr == 'U N I (SINGLE)' && (titleTextStr = 'uni (single)');
-        let placeBeforePlayer = document.querySelector('#hOne');
-        placeBeforePlayer.innerHTML = '<h1><span class="bg-h-one">' + titleTextStr + '</span></h1>';                
+        titleTextStr == 'ZOO10!' && (titleTextStr = '☃');
+        let placeBeforePlayerObj = document.querySelector('#hOne');
+        // titleTextStr == 'ZOO10!'
+            // && (document.querySelector('.bg-h-one').style.background = '#ccc');
+        placeBeforePlayerObj.innerHTML = '<h1><span class="bg-h-one">' + titleTextStr + '</span></h1>';                
+        console.log('placeBeforePlayerObj:', placeBeforePlayerObj)
     }
     createHOneFromTitle();
 

@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-for-player.css">
-    <link rel="stylesheet" type="text/css" href="css/only-ie.css" />    
+    <link rel="stylesheet" type="text/css" href="css/only-ie.css" />   
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+
 </head>
 
 <body>

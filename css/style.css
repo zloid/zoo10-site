@@ -18,8 +18,8 @@
  }
 
  a.nav-link.active {
-    padding-left: 3px;
-}
+     padding-left: 3px;
+ }
 
  #soooda {
      border: 1px solid rgb(184, 40, 136);
@@ -65,4 +65,21 @@
      background: transparent;
      /* optional: just make scrollbar invisible */
  }
- 
+
+ .slider img {
+     border-radius: 5px;
+ }
+
+ @media only screen and (max-width: 600px) {
+     .slider {
+         width: 90%;
+         margin: 0px auto;
+     }
+ }
+
+ @media only screen and (min-width: 600px) {
+     .slider {
+         width: 60%;
+         margin: 50px auto;
+     }
+ }
