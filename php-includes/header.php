@@ -19,7 +19,7 @@
 
 <!-- <div id="cover"> -->
 <div class="header container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
         <a href="/" class="navbar-brand">
             <img class="logo-nav-img" src="images/zoo10_pattern.png" alt="">
         </a>

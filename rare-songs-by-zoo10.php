@@ -53,7 +53,21 @@
     <audio controls>
         <source src="songs/neizdannoe-by-zoo10/16-ya-i-moya-porehmaHERskaya.mp3" type="audio/mpeg">
     </audio>
-
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/17-MikroOptika.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/18-Pagrushik.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/19-Mimozy-na-vetru.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/20-Tufli-dedushki.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+        <source src="songs/neizdannoe-by-zoo10/21-Kater.mp3" type="audio/mpeg">
+    </audio>
 <?    
     include('php-includes/footer.php'); 
 ?>
